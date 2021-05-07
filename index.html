@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <script src="https://kit.fontawesome.com/437258a9e4.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;700&display=swap" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+    <title>Jane Smith Portfolio</title>
+    <script src="/script.js" defer></script>
+</head>
+<body>
+    <header class="header">
+            <img src="/img/devjane.png" alt="" class="logo">
+            <i class="fas fa-bars open-nav" aria-label="Open navigation"></i>
+        <nav class="nav-bar">
+            <i class="fas fa-times close-nav" aria-label="Close navigation"></i>
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                <li class="nav-item"><a href="#services" class="nav-link">My services</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About me</a></li>
+                <li class="nav-item"><a href="#work" class="nav-link">My work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- INTRODUCTION -->
+
+    <section class="intro" id="home">
+        <h1 class="section-title intro-title">Hi, I am <strong>Jane Smith</strong></h1>
+        <p class="intro-subtitle">Front-end Dev</p>
+        <img src="/img/dev-jane-01.jpg" alt="Jane Smith Profile Picture" class="profile-picture">
+    </section>
+
+    <!-- SERVICES SECTION -->
+
+    <section class="section-services" id="services">
+        <h2 class="section-title services-title">What I do</h2>
+        <div class="services">
+            <div class="service">
+                <h3 class="section-subtitle services-subtitle">Design + Development</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <div class="service">
+                <h3 class="section-subtitle services-subtitle">E-Commerce</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <div class="service">
+                <h3 class="section-subtitle services-subtitle">WordPress</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+        </div>    
+        <a href="#work" class="work-btn">My work</a>
+    </section>
+
+    <!-- ABOUT SECTION -->
+
+    <section class="about-section" id="about">
+            <h2 class="section-title about-title">Who I am</h2>
+            <p class="section-subtitle about-subtitle">Designer & developer based out of NYC</p>
+        <div class="about-body">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <img src="/img/dev-jane-02.jpg" alt="Jane leaning against a bus" class="bus-picture">
+    </section>
+
+    <!-- WORK SECTION -->
+
+    <section class="section-work" id="work">
+        <h2 class="section-title work-title">My work</h2>
+        <p class="section-subtitle work-subtitle">A selection of my range of work</p>
+
+        <div class="portfolio">
+            <a href="#" class="image-link">
+                <img src="/img/portfolio-01.jpg" alt="" class="work-image">
+            </a>
+
+            <a href="#" class="image-link">
+                <img src="/img/portfolio-02.jpg" alt="" class="work-image">
+            </a>
+            
+            <a href="#" class="image-link">
+                <img src="/img/portfolio-03.jpg" alt="" class="work-image">
+            </a>
+            
+            <a href="#" class="image-link">
+                <img src="/img/portfolio-04.jpg" alt="" class="work-image">
+            </a>
+            
+            <a href="#" class="image-link">
+                <img src="/img/portfolio-05.jpg" alt="" class="work-image">
+            </a>
+            
+            <a href="#" class="image-link">
+                <img src="/img/portfolio-06.jpg" alt="" class="work-image">
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+
+    <footer class="footer" id="contact">
+        <a href="mailto:hello@jane.dev" class="footer-link">hello@devjane.com</a>
+        <div class="social-media">
+            <a href="#" class="social-media-link"><i class="fab fa-codepen social-media-item"></i></a>
+            <a href="#" class="social-media-link"><i class="fab fa-dribbble social-media-item"></i></a>
+            <a href="#" class="social-media-link"><i class="fab fa-twitter social-media-item"></i></a>
+            <a href="#" class="social-media-link"><i class="fab fa-github social-media-item"></i></a>
+        </div>
+    </footer>
+    
+</body>
+</html>
